@@ -5,7 +5,7 @@ import (
 	userpb "github.com/samguya/grpc-example/protos/v1/user"
 )
 
-var UserData = []*userpb.UserMessage{
+var Users = []*userpb.UserMessage{
 	{
 		UserId: "1",
 		Name: "Henry",
